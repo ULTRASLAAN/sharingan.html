@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Sharingan Animé</title>
+  <style>
+    body {
+      background: #000;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+    .sharingan {
+      width: 300px;
+      height: 300px;
+      animation: spin 3s linear infinite;
+    }
+    @keyframes spin {
+      100% { transform: rotate(360deg); }
+    }
+    .pupil {
+      fill: #231f20;
+      transition: r 0.3s;
+    }
+    .tomoe {
+      fill: #231f20;
+      stroke: #e41a1c;
+      stroke-width: 4;
+    }
+    .iris {
+      fill: #e41a1c;
+      filter: drop-shadow(0 0 30px #e41a1c);
+    }
+  </style>
+</head>
+<body>
+  <svg class="sharingan" viewBox="0 0 300 300">
+    <!-- Iris -->
+    <circle class="iris" cx="150" cy="150" r="120"/>
+    <!-- Pupil -->
+    <circle class="pupil" cx="150" cy="150" r="42"/>
+    <!-- Tomoe 1 -->
+    <g transform="rotate(0 150 150)">
+      <ellipse class="tomoe" cx="220" cy="150" rx="22" ry="12"/>
+      <circle class="pupil" cx="230" cy="150" r="8"/>
+    </g>
+    <!-- Tomoe 2 -->
+    <g transform="rotate(120 150 150)">
+      <ellipse class="tomoe" cx="220" cy="150" rx="22" ry="12"/>
+      <circle class="pupil" cx="230" cy="150" r="8"/>
+    </g>
+    <!-- Tomoe 3 -->
+    <g transform="rotate(240 150 150)">
+      <ellipse class="tomoe" cx="220" cy="150" rx="22" ry="12"/>
+      <circle class="pupil" cx="230" cy="150" r="8"/>
+    </g>
+  </svg>
+</body>
+</html>

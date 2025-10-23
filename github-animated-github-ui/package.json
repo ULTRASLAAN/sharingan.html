@@ -1,0 +1,30 @@
+{
+  "name": "github-animated-github-ui",
+  "version": "1.0.0",
+  "description": "An animated GitHub interface with interactive elements.",
+  "main": "src/index.html",
+  "scripts": {
+    "start": "live-server src",
+    "build": "echo 'Build process not defined yet.'"
+  },
+  "keywords": [
+    "github",
+    "animation",
+    "interface",
+    "web"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "live-server": "^1.2.1"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/github-animated-github-ui.git"
+  },
+  "homepage": "https://github.com/yourusername/github-animated-github-ui#readme",
+  "bugs": {
+    "url": "https://github.com/yourusername/github-animated-github-ui/issues"
+  }
+}
