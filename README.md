@@ -11,7 +11,7 @@ Interface GitHub animée avec le Sharingan de Naruto.
 
 ## 🚀 Démo en ligne
 
-[Voir la démo](https://ultraslaan.github.io/partagean.html/)
+[Voir la démo](https://ultraslaan.github.io/sharingan.html/)
 
 ## 💻 Technologies
 
@@ -23,10 +23,10 @@ Interface GitHub animée avec le Sharingan de Naruto.
 
 1. Clonez le repository
 ```bash
-git clone https://github.com/ULTRASLAAN/partagean.html.git
+git clone https://github.com/ULTRASLAAN/sharingan.html.git
 ```
 
-2. Ouvrez `HTML` dans votre navigateur
+2. Ouvrez `index.html` dans votre navigateur
 
 ## 🎨 Aperçu
 
